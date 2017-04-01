@@ -29,11 +29,11 @@ namespace MyFirstDemo.iOS
 												 .InstantiateViewController("tabViewController");
 			else
 				Window.RootViewController = UIStoryboard.FromName("Main", null)
-												 .InstantiateViewController("loginViewController");
+												 .InstantiateViewController("GPLoginViewController");
 
 			return true;
 		}
-
+		//
 		public override void OnResignActivation(UIApplication application)
 		{
 			// Invoked when the application is about to move from active to inactive state.
